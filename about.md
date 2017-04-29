@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm currently a Software Engineering Team Lead working at [Qualtrax](http://www.qualtrax.com){:target="_blank"}. This blog will be filled with posts about remote work, life adventures and coding experiences. I aim to provide content for large-scale architecture and design along with the major challenges that are faced in the enterprise software world.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[keithwillcode@gmail.com](mailto:keithwillcode@gmail.com)
