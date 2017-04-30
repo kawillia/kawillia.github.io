@@ -1,3 +1,11 @@
+# Site settings
+title: Keith Williams
+description: Software engineering philosophies, coding fun and life adventures
+keywords: Blogging, Fun, Software Engineering, Remote
+author: keithwillcode
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.keithwillcode.com" # the base hostname & protocol for your site
+
 #
 # This file contains configuration flags to customize your site
 #

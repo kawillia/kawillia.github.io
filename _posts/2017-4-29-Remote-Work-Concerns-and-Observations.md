@@ -1,9 +1,13 @@
 ---
-layout: post
-title: Remote Work - Concerns and Observations
+title:  "Remote Work - Concerns and Observations"
+subtitle: “Get out in the world!“
+author: “keithwillcode”
+avatar: "img/authors/keithwillcode.png"
+image: "img/areatres_laptop.jpg"
+date:   2017-04-29 22:44:12
 ---
 
-There is still a lot of debate over whether or not employees who work remotely can be as productive as employees in the office. I want to walk through some common concerns I've heard with remote work and address them with observations of my own while working remotely. This post is from the perspective of a software engineer and team lead/manager for software engineers.
+There is still a lot of debate over whether or not employees who work remotely can be as productive as employees in the office. I want to walk through some common concerns I've heard and address them with observations of my own while working remotely. This post is from the perspective of a software engineer and team lead/manager for software engineers.
 
 ## Concern #1 - Distractions/Interruptions
 *"Aren't you distracted working in a coffee shop or a coworking space or [put any random place here]?"*
