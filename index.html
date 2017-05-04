@@ -60,6 +60,7 @@ layout: compress
                         <div class="card__caption">
                             <h2 class="card__title">{{ post.title }}</h2>
                             <p class="card__subtitle">{{ post.subtitle }}</p>
+                            
                         </div>
                         <div class="card__copy">
                             <div class="meta">
@@ -69,6 +70,7 @@ layout: compress
                             </div>
                             {{ post.content }}
                         </div>
+                        <a href="http://twitter.com/share?text={{ post.title }} by @keithwillcode&url={{ site.url }}{{ post.id }}" target="_blank">Share on Twitter</a>
                     </div>
                 </div>
             </div>
