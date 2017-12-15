@@ -40,7 +40,7 @@ Once you've found a method you think you can extract, ask yourself what it's rea
 
 ## Why do this?
 
-Let me bring it back to where I started. It is our responsibilty as software engineers to make features work in the present. True. But, we must be cognizant of the fact that other engineers will follow in our footsteps. If we give them lots of small classes that have just a few variables and very few lines of code, I guarantee they will appreciate us. We have made their lives' easier. We have also saved the team and company time and money because our code will be significantly more maintainable.
+Let me bring it back to where I started. It is our responsibilty as software engineers to make features work in the present. True. But, we must be cognizant of the fact that other engineers will follow in our footsteps. If we give them lots of small classes that have just a few variables and very few lines of code, I guarantee they will appreciate us. We have made their lives easier. We have also saved the team and company time and money because our code will be significantly more maintainable.
 
 
 
