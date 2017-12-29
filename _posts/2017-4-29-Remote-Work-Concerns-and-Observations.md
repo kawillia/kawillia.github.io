@@ -1,5 +1,6 @@
 ---
 title:  "Remote Work - Concerns and Observations"
+subtitle: “Do you just feel weird about the whole thing?"
 author: “keithwillcode”
 avatar: "img/authors/keithwillcode.png"
 image: "img/areatres_laptop.jpg"

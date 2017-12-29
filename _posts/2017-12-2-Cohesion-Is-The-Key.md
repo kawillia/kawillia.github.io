@@ -1,5 +1,6 @@
 ---
 title:  "Cohesion is the Key"
+subtitle: “The best way to create maintainable code“
 author: “keithwillcode”
 avatar: "img/authors/keithwillcode.png"
 image: "img/cohesion_is_the_key.jpg"
