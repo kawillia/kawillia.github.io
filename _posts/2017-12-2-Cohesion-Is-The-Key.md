@@ -15,7 +15,7 @@ What I realized later is that our code will always have to work. If it doesn't, 
 
 So how do we write maintainable code? Well, there are many aspects to this, but I'll just focus on the 1 thing that has been proven to work time and time again. 
 
-**`Cohesion` is the key!**
+**Focus on the `Cohesion` of your classes!**
 
 Above having the correct data layer in place, above separating concerns of the UI and your domain, even above having a beautifully designed CQRS system that has your read and write stacks separated, make sure you have insanely high cohesion. If you do this, the rest will fall into place.
 
@@ -25,7 +25,7 @@ Cohesion, in the context of classes, is the extent to which a class uses member 
 
 ## How do we obtain high cohesion?
 
-When designing a class, where do you start? Some engineers who live and die by TDD will start with a set of tests. Fantastic. Others may start with class diagrams. Ehh. Others will get a specification from their product manager and just start hacking away at the production code because they've been told they only have 2 weeks to complete the feature, which is potentially unreasonable, but they have absolutely no way of altering the deadline. 
+When designing a class, where do you start? Some engineers who live and die by TDD will start with writing tests and then production code. Fantastic. Others may start with class diagrams. Ehh. Others will get a specification from their product manager and just start hacking away at the production code because they've been told they only have 2 weeks to complete the feature, which is potentially unreasonable, but they have absolutely no way of altering the deadline. 
 
 No matter where you start, closely watch the member variables in your class. Each method you add, take a moment to look at how many private members it is using. If it's using all of them, that's ideal and amazing. If not, that might be ok, but only as long as methods don't start to only use a small subset of your private members. What we are really trying to avoid by making our cohesion high is having classes that have too many responsibilities. 
 
@@ -35,13 +35,13 @@ A better solution is to be more specific when creating your classes. Let's take 
 
 ## How do you refactor existing classes?
 
-So what do you do if we are working on a legacy system that has huge classes with poor cohesion? This is actually simpler than you might think but naming the new classes can sometimes be difficult. Start by finding methods that use a small subset of member variables. This will highlight a responsibility living in the class that can be extracted to a new class. If you start on the opposite spectrum just looking for use cases masked as methods, you might run into a larger refactor than you were bargaining for.
+So what do we do if we are working on a legacy system that has huge classes with poor cohesion? This is actually simpler than you might think but naming the new classes can sometimes be difficult. Start by finding methods that use a small subset of member variables. This will highlight a responsibility living in the class that can be extracted to a new class. If you start on the opposite spectrum just looking for use cases masked as methods, you might run into a larger refactor than you were bargaining for.
 
 Once you've found a method you think you can extract, ask yourself what it's really doing. Think back to the `NewPasswordPolicy`. That class is going to do 1 thing and only 1 thing. Take this same approach when creating and naming your new class. Be specific. 
 
 ## Why do this?
 
-Let me bring it back to where I started. It is our responsibilty as software engineers to make features work in the present. True. But, we must be cognizant of the fact that other engineers will follow in our footsteps. If we give them lots of small classes that have just a few variables and very few lines of code, I guarantee they will appreciate us. We have made their lives easier. We have also saved the team and company time and money because our code will be significantly more maintainable.
+Let me bring it back to where I started. It is our responsibilty as software engineers to make features work in the present. True. But, we must be cognizant of the fact that other engineers will follow in our footsteps. If we give them lots of small classes that have just a few variables and very few lines of code, I guarantee they will appreciate us. We have made their lives easier. The team and company will be saved time and money with newly minted, maintainable code.
 
 
 
