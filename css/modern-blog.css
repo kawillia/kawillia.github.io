@@ -70,6 +70,7 @@
 }
 
 .card__container--closed .card__caption {
+	background-color: rgba(136, 136, 136, 0.7);
 	font-size: 1em;
 	max-width: auto;
 	padding: 10px 10px 25px;
